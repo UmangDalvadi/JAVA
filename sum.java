@@ -10,7 +10,5 @@ public class sum {
 
         System.out.println("Sum is: "+ (a+b));
 
-
-
     }
 }
