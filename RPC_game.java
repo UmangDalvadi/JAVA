@@ -6,7 +6,7 @@ public class RPC_game {
     {
         Random rand=new Random();
         Scanner sc= new Scanner(System.in);
-        
+
         int userpoint=0;
         int compoint=0;
 
@@ -16,9 +16,9 @@ public class RPC_game {
         for (int i=0;i<num;i++) {
             int gen=rand.nextInt(1,4);
 
-            System.out.println("1.Rock\n2.Paper\n3.scissors\n");
+            System.out.println("\n1.Rock\n2.Paper\n3.scissors\n");
 
-            System.out.println("\nEnter your choice : ");
+            System.out.println("Enter your choice : ");
             int choice = sc.nextInt();
 
             if (choice == 1){
@@ -56,10 +56,12 @@ public class RPC_game {
                     System.out.println("Computer choice : "+gen);
                 }
             }
+
+            System.out.println("\nYour score : "+userpoint);
+            System.out.println("Computer score : "+compoint+"\n");
         }
 
-        System.out.println("\nYour points : "+userpoint);
-        System.out.println("Computer points : "+compoint+"\n");
+
 
         if (userpoint>compoint)
             System.out.println("You are a Winner!!");
