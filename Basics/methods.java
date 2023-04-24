@@ -1,3 +1,4 @@
+
 public class methods {
 
     static int logic(int a,int b){

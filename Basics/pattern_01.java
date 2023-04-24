@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 public class pattern_01 {
     static void ptr(int x){

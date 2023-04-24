@@ -1,3 +1,5 @@
+
+
 public class varargs {
 
     static int sum(int ...arr){

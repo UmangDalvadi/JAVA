@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 public class arr_foreach {
     public static void main(String[] args)
