@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class pattern {
+public class pattern_01 {
     static void ptr(int x){
         for (int i=0;i<=x;i++){
             for (int j=0;j<i;j++){
