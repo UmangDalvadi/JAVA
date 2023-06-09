@@ -6,7 +6,7 @@ public class getithbit {
 
         System.out.println("Enter number : ");
         int n1 = sc.nextInt();
-        System.out.println("Enter index for Ith bit : ");
+        System.out.println("Enter index for get Ith bit : ");
         int n2 = sc.nextInt();
 
         int bitmask = (1<<n2);
