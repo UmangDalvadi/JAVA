@@ -1,5 +1,4 @@
 
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -64,8 +63,10 @@ public class Rock_Paper_Scissors {
 
             if (userpoint > compoint)
                 System.out.println("You are a Winner!!");
-            else
+            else if (compoint > userpoint)
                 System.out.println("You are a Losser!!");
+            else
+                System.out.println("Play again!!");
         }
     }
 }
